@@ -3,8 +3,6 @@ package de.test.command;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import sun.rmi.log.LogHandler;
-
 /**
  * Receiver of the command {@link SwitchLightOn}
  * 
