@@ -8,11 +8,11 @@ package de.test.command;
  *         $Rev: $<br />
  *         $LastChangedDate: $
  */
-public class Switch {
+public class Switch_Invoker {
 
   private Command command;
 
-  public Switch(Command command) {
+  public Switch_Invoker(Command command) {
     this.command = command;
   }
 

@@ -12,9 +12,9 @@ import org.slf4j.LoggerFactory;
  *         $LastChangedDate: $
  */
 
-public class Light {
+public class Light_Receiver {
 
-  private static final Logger LOG = LoggerFactory.getLogger(Light.class);
+  private static final Logger LOG = LoggerFactory.getLogger(Light_Receiver.class);
 
   boolean light;
 

@@ -3,9 +3,9 @@ package de.test.command;
 public class SwitchLightOn
   implements Command {
 
-  private Light light;
+  private Light_Receiver light;
 
-  public SwitchLightOn(Light light) {
+  public SwitchLightOn(Light_Receiver light) {
     this.light = light;
   }
 
