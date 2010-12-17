@@ -11,6 +11,8 @@ public class SwitchLightOn
 
   @Override
   public void execute() {
+    // light.plughIn();
+    // light.setOn();
     light.switchOn();
   }
 

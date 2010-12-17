@@ -19,4 +19,20 @@ public class Leaf
     LOG.debug("Reached lead  " + name + " ...");
   }
 
+  @Override
+  public void add(Component component) {
+    // empty
+  }
+
+  @Override
+  public Component getChild(int position) {
+    // use NULL Object
+    return null;
+  }
+
+  @Override
+  public void remove(int position) {
+    // empty
+  }
+
 }
